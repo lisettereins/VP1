@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+	<meta charset="utf-8">
+	<title>Lisette Reins</title>
+</head>
+<body>
+	<img src="/banner/vp_banner_2024.png" alt="Veebiprogrammeerimise 2024 aasta kursuse bänner" >
+	<h1>Lisette Reins</h1>
+	<p>See leht on loodud õppetöö raames <a href="https://www.tlu.ee" target="_blank">Tallinna ülikoolis</a> ja ei sisalda tõsiseltvõetavat sisu.</p>
+	<hr>
+	<ul>
+	<li><a href="/">Avaleht</a></li>
+	</ul>
+	<h2>Eesti filmitegelased</h2>
+	<ul>
+		<% persons.forEach (function(item){ %>
+		<li><%= item.first_name %> <%= item.last_name %>, sündinud <%= item.birth_date %></li>
+		<% }); %>
+	</ul>	
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+	<meta charset="utf-8">
+	<title>Lisette Reins</title>
+</head>
+<body>
+	<img src="/banner/vp_banner_2024.png" alt="Veebiprogrammeerimise 2024 aasta kursuse bänner" >
+	<h1>Lisette Reins</h1>
+	<p>See leht on loodud õppetöö raames <a href="https://www.tlu.ee" target="_blank">Tallinna ülikoolis</a> ja ei sisalda tõsiseltvõetavat sisu.</p>
+	<hr>
+	<ul>
+		<li><a href="/">Avaleht</a></li>
+		<li><a href="/addPerson">Lisa filmiga seotud isik</a></li>
+		<li><a href="/addRole">Lisa positsioon</a></li>
+	</ul>
+	<hr>
+	<h2>Lisa film</h2>
+	<form method="POST">
+		<label for="movieTitleInput">Filmi pealkiri: </label>
+		<input type="text" id="movieTitleInput" name="movieTitleInput" placeholder="Filmi pealkiri...">
+		<br>
+		<label for="movieYearInput">Filmi ilmumise aasta: </label>
+		<input type="text" id="movieYearInput" name="movieYearInput" placeholder="Filmi ilmumise aasta...">
+		<br>
+		<label for="movieDurationInput">Filmi kestus: </label>
+		<input type="text" id="movieDurationInput" name="movieDurationInput" placeholder="Filmi kestus...">
+		<br>
+		<label for="movieDescriptionInput">Filmi kirjeldus: </label>
+		<textarea id="movieDescriptionInput" name="movieDescriptionInput" placeholder="Filmi kirjeldus..." cols="100" rows="5"></textarea>
+		<br>
+		<input type="submit" id="newsSubmit" name="newsSubmit" value="Salvesta">
+	</form>
+	
+</body>
+</html>
